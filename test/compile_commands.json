@@ -1,0 +1,160 @@
+[
+ {
+  "directory": "/Users/ionizing/Documents/github/kpathgen/c/test", 
+  "arguments": [
+   "cc", 
+   "-c", 
+   "-o", 
+   "../build/../src/matops.o", 
+   "../src/../src/matops.c", 
+   "-I../include", 
+   "-Wall", 
+   "-Wextra", 
+   "-std=c99", 
+   "-g", 
+   "-fno-omit-frame-pointer", 
+   "-fsanitize=address"
+  ], 
+  "file": "../src/../src/matops.c"
+ }, 
+ {
+  "directory": "/Users/ionizing/Documents/github/kpathgen/c/test", 
+  "arguments": [
+   "cc", 
+   "-c", 
+   "-o", 
+   "../src/poscar.o", 
+   "../src/poscar.c", 
+   "-I../include", 
+   "-std=c99", 
+   "-g", 
+   "-fno-omit-frame-pointer", 
+   "-fsanitize=address"
+  ], 
+  "file": "../src/poscar.c"
+ }, 
+ {
+  "directory": "/Users/ionizing/Documents/github/kpathgen/c/test", 
+  "arguments": [
+   "cc", 
+   "-c", 
+   "-o", 
+   "test_stringops.o", 
+   "test_stringops.c", 
+   "-I../include", 
+   "-Wall", 
+   "-Wextra", 
+   "-std=c99", 
+   "-g", 
+   "-fno-omit-frame-pointer", 
+   "-fsanitize=address"
+  ], 
+  "file": "test_stringops.c"
+ }, 
+ {
+  "directory": "/Users/ionizing/Documents/github/kpathgen/c/test", 
+  "arguments": [
+   "cc", 
+   "-c", 
+   "-o", 
+   "test_debug.o", 
+   "test_debug.c", 
+   "-I../include", 
+   "-Wall", 
+   "-Wextra", 
+   "-std=c99", 
+   "-g", 
+   "-fno-omit-frame-pointer", 
+   "-fsanitize=address"
+  ], 
+  "file": "test_debug.c"
+ }, 
+ {
+  "directory": "/Users/ionizing/Documents/github/kpathgen/c/test", 
+  "arguments": [
+   "cc", 
+   "-c", 
+   "-o", 
+   "../build/../src/poscar.o", 
+   "../src/../src/poscar.c", 
+   "-I../include", 
+   "-Wall", 
+   "-Wextra", 
+   "-std=c99", 
+   "-g", 
+   "-fno-omit-frame-pointer", 
+   "-fsanitize=address"
+  ], 
+  "file": "../src/../src/poscar.c"
+ }, 
+ {
+  "directory": "/Users/ionizing/Documents/github/kpathgen/c/test", 
+  "arguments": [
+   "cc", 
+   "-c", 
+   "-o", 
+   "../build/../src/kpath.o", 
+   "../src/../src/kpath.c", 
+   "-I../include", 
+   "-Wall", 
+   "-Wextra", 
+   "-std=c99", 
+   "-g", 
+   "-fno-omit-frame-pointer", 
+   "-fsanitize=address"
+  ], 
+  "file": "../src/../src/kpath.c"
+ }, 
+ {
+  "directory": "/Users/ionizing/Documents/github/kpathgen/c/test", 
+  "arguments": [
+   "cc", 
+   "-c", 
+   "-o", 
+   "test_poscar.o", 
+   "test_poscar.c", 
+   "-I../include", 
+   "-Wall", 
+   "-Wextra", 
+   "-std=c99", 
+   "-g", 
+   "-fno-omit-frame-pointer", 
+   "-fsanitize=address"
+  ], 
+  "file": "test_poscar.c"
+ }, 
+ {
+  "directory": "/Users/ionizing/Documents/github/kpathgen/c/test", 
+  "arguments": [
+   "cc", 
+   "-c", 
+   "-o", 
+   "../build/../src/strops.o", 
+   "../src/../src/strops.c", 
+   "-I../include", 
+   "-Wall", 
+   "-Wextra", 
+   "-std=c99", 
+   "-g", 
+   "-fno-omit-frame-pointer", 
+   "-fsanitize=address"
+  ], 
+  "file": "../src/../src/strops.c"
+ }, 
+ {
+  "directory": "/Users/ionizing/Documents/github/kpathgen/c/test", 
+  "arguments": [
+   "cc", 
+   "-c", 
+   "-o", 
+   "../src/kpath.o", 
+   "../src/kpath.c", 
+   "-I../include", 
+   "-std=c99", 
+   "-g", 
+   "-fno-omit-frame-pointer", 
+   "-fsanitize=address"
+  ], 
+  "file": "../src/kpath.c"
+ }
+]
