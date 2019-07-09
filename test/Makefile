@@ -22,8 +22,11 @@ all: $(EXE)
 %.o: %.c $(INCS)
 	$(CC) -c -o $@ $< $(INCLUDE) $(CFLAGS)
 
-../build/%.o: ../src/%.c $(INCS)
+../build/%.o: ../src/%.c $(INCS) builddir
 	$(CC) -c -o $@ $< $(INCLUDE) $(CFLAGS)
+
+builddir:
+	mkdir -p ../build
 
 clean:
 	@rm ./*.out ./*.o ../build/*
