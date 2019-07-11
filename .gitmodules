@@ -1,3 +1,6 @@
 [submodule "third_party/spglib"]
 	path = third_party/spglib
 	url = https://github.com/atztogo/spglib
+[submodule "third_party/seekpath"]
+	path = third_party/seekpath
+	url = https://github.com/giovannipizzi/seekpath
