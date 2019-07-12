@@ -109,14 +109,10 @@ typedef enum {
 
 
 typedef struct {
-  typedef struct {
-    HighSymmetryPoint symbol;
-    double            coordinate[3];
-  } HSP_coord;
 
   LatticeType       latt_type;
   int               n_highsym_points;
   int               n_paths;
-  HSP_coord         highsym_points[20];
+  HighSymmetryPoint highsym_points[20];
   HighSymmetryPoint path[12][2];        // Maximum path nodes is 12
 } KPath;
