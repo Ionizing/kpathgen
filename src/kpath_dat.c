@@ -248,15 +248,16 @@ ERROR_CODE kpt_print_high_symmetry_point(const HighSymmetryPoint hsp,
 /*
  * KPath data
  */
-static const KPath kpath_dat[30] = {
-  { // null type
+static const KPath kpath_dat[30] = { // Only takes up 65 kB
+  [_null] = { // null type
     .latt_type        = _null,
     .n_highsym_points = 0,
     .n_paths          = 0,
     .highsym_points   = {},
     .path             = {},
+    .hsp_coordinates  = {},
   },
-  { // cP1
+  [_cP1] = { // cP1
     .latt_type        = _cP1,
     .n_highsym_points = 5,
     .n_paths          = 7,
@@ -276,8 +277,15 @@ static const KPath kpath_dat[30] = {
       {_hsp_R,        _hsp_M    },
       {_hsp_M,        _hsp_X_1  },
     },
+    .hsp_coordinates  = {
+      [_hsp_GAMMA]  = {     0,     0,     0},
+      [_hsp_R]      = {   0.5,   0.5,   0.5},
+      [_hsp_M]      = {   0.5,   0.5,     0},
+      [_hsp_X]      = {     0,   0.5,     0},
+      [_hsp_X_1]    = {   0.5,     0,     0},
+    },
   },
-  { // cP2
+  [_cP2] = { // cP2
     .latt_type        = _cP2,
     .n_highsym_points = 5,
     .n_paths          = 6,
@@ -295,6 +303,13 @@ static const KPath kpath_dat[30] = {
       {_hsp_GAMMA,    _hsp_R    },
       {_hsp_R,        _hsp_X    },
       {_hsp_R,        _hsp_M    },
+    },
+    .hsp_coordinates  = {
+      [_hsp_GAMMA]  = {     0,     0,     0},
+      [_hsp_R]      = {   0.5,   0.5,   0.5},
+      [_hsp_M]      = {   0.5,   0.5,     0},
+      [_hsp_X]      = {     0,   0.5,     0},
+      [_hsp_X_1]    = {   0.5,     0,     0},
     },
   },
   { // cF1
