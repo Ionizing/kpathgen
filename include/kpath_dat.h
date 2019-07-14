@@ -110,6 +110,7 @@ typedef enum {
 
 typedef struct {
   LatticeType       latt_type;
+  bool              is_need_calculated;
   int               n_highsym_points;
   int               n_paths;
   HighSymmetryPoint highsym_points[20];

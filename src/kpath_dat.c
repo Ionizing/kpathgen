@@ -251,6 +251,7 @@ ERROR_CODE kpt_print_high_symmetry_point(const HighSymmetryPoint hsp,
 static const KPath kpath_dat[30] = { // Only takes up 65 kB
   [_null] = { // null type
     .latt_type        = _null,
+    .is_need_calculated = false,
     .n_highsym_points = 0,
     .n_paths          = 0,
     .highsym_points   = {},
@@ -259,6 +260,7 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
   },
   [_cP1] = { // cP1
     .latt_type        = _cP1,
+    .is_need_calculated = false,
     .n_highsym_points = 5,
     .n_paths          = 7,
     .highsym_points   = {
@@ -287,6 +289,7 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
   },
   [_cP2] = { // cP2
     .latt_type        = _cP2,
+    .is_need_calculated = false,
     .n_highsym_points = 5,
     .n_paths          = 6,
     .highsym_points   = {
@@ -314,6 +317,7 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
   },
   { // cF1
     .latt_type        = _cF1,
+    .is_need_calculated = false,
     .n_highsym_points = 7,
     .n_paths          = 7,
     .highsym_points   = {
@@ -334,9 +338,19 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
       {_hsp_W,        _hsp_X},
       {_hsp_X,        _hsp_W_2}, 
     },
+    .hsp_coordinates  = {
+      [_hsp_GAMMA]  = {     0,     0,     0},
+      [_hsp_X]      = {   0.5,     0,   0.5},
+      [_hsp_L]      = {   0.5,   0.5,   0.5},
+      [_hsp_W]      = {   0.5,  0.25,  0.75},
+      [_hsp_W_2]    = {  0.75,  0.25,   0.5},
+      [_hsp_K]      = { 0.375, 0.375,  0.75},
+      [_hsp_U]      = { 0.635,  0.25, 0.625},
+    },
   },
   { // cF2
     .latt_type        = _cF2,
+    .is_need_calculated = false,
     .n_highsym_points = 7,
     .n_paths          = 6,
     .highsym_points   = {
@@ -356,9 +370,19 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
       {_hsp_L,        _hsp_W},
       {_hsp_W,        _hsp_X},
     },
+    .hsp_coordinates  = {
+      [_hsp_GAMMA]  = {     0,     0,     0},
+      [_hsp_X]      = {   0.5,     0,   0.5},
+      [_hsp_L]      = {   0.5,   0.5,   0.5},
+      [_hsp_W]      = {   0.5,  0.25,  0.75},
+      [_hsp_W_2]    = {  0.75,  0.25,   0.5},
+      [_hsp_K]      = { 0.375, 0.375,  0.75},
+      [_hsp_U]      = { 0.625,  0.25, 0.625},
+    },
   },
   { // cI1
     .latt_type        = _cI1,
+    .is_need_calculated = false,
     .n_highsym_points = 4,
     .n_paths          = 6,
     .highsym_points   = {
@@ -375,9 +399,16 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
       {_hsp_P,        _hsp_H},
       {_hsp_P,        _hsp_N},
     },
+    .hsp_coordinates  = {
+      [_hsp_GAMMA]  = {     0,     0,     0},
+      [_hsp_H]      = {   0.5,   -.5,   0.5},
+      [_hsp_P]      = {  0.25,  0.25,  0.25},
+      [_hsp_N]      = {     0,     0,   0.5},
+    },
   },
-  {
+  { // tP1
     .latt_type        = _tP1,
+    .is_need_calculated = false,
     .n_highsym_points = 6,
     .n_paths          = 9,
     .highsym_points   = {
@@ -399,16 +430,24 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
       {_hsp_X,        _hsp_R},
       {_hsp_M,        _hsp_A},
     },
+    .hsp_coordinates  = {
+      [_hsp_GAMMA]  = {     0,     0,     0},
+      [_hsp_Z]      = {     0,     0,   0.5},
+      [_hsp_M]      = {   0.5,   0.5,     0},
+      [_hsp_A]      = {   0.5,   0.5,   0.5},
+      [_hsp_R]      = {     0,   0.5,   0.5},
+      [_hsp_X]      = {     0,   0.5,     0},
+    },
   },
-  {
+  { // tI1  --> Need to be calculated
     .latt_type        = _tI1,
+    .is_need_calculated = true,
     .n_highsym_points = 7,
     .n_paths          = 8,
     .highsym_points   = {
       _hsp_GAMMA,
       _hsp_M,
       _hsp_X,
-      _hsp_G,
       _hsp_P,
       _hsp_Z,
       _hsp_Z_0,
@@ -423,10 +462,20 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
       {_hsp_X,        _hsp_P},
       {_hsp_P,        _hsp_N},
       {_hsp_N,        _hsp_GAMMA},
-    }
+    },
+    .hsp_coordinates  = {
+      [_hsp_GAMMA]  = {     0,     0,     0},
+      [_hsp_M]      = {   -.5,   0.5,   0.5},
+      [_hsp_X]      = {     0,     0,   0.5},
+      [_hsp_P]      = {  0.25,  0.25,  0.25},
+      [_hsp_Z]      = {    -1,    -1,    -1},  // Need to be calculated.
+      [_hsp_Z_0]    = {    -1,    -1,    -1},  // Need to be calculated.
+      [_hsp_N]      = {     0,   0.5,     0},
+    },
   },
-  {
+  { // tI2 --> Need to be calculated
     .latt_type        = _tI2,
+    .is_need_calculated = true,
     .n_highsym_points = 9,
     .n_paths          = 9,
     .highsym_points   = {
@@ -451,9 +500,21 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
       {_hsp_X,        _hsp_R},
       {_hsp_G,        _hsp_M},
     },
+    .hsp_coordinates  = {
+      [_hsp_GAMMA]  = {     0,     0,     0},
+      [_hsp_M]      = {   0.5,   0.5,   0.5},
+      [_hsp_X]      = {     0,     0,   0.5},
+      [_hsp_P]      = {  0.25,  0.25,  0.25},
+      [_hsp_N]      = {     0,   0.5,     0},
+      [_hsp_S_0]    = {    -1,    -1,    -1}, // Need to be calculated
+      [_hsp_S]      = {    -1,    -1,    -1}, // Need to be calculated
+      [_hsp_R]      = {    -1,    -1,    -1}, // Need to be calculated
+      [_hsp_G]      = {    -1,    -1,    -1}, // Need to be calculated
+    },
   },
-  {
+  { // oP1
     .latt_type        = _oP1,
+    .is_need_calculated = false,
     .n_highsym_points = 8,
     .n_paths          = 12,
     .highsym_points   = {
@@ -480,9 +541,20 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
       {_hsp_Y,        _hsp_T},
       {_hsp_S,        _hsp_R},
     },
+    .hsp_coordinates  = {
+      [_hsp_GAMMA]  = {     0,     0,     0},
+      [_hsp_X]      = {   0.5,     0,     0},
+      [_hsp_Z]      = {     0,     0,   0.5},
+      [_hsp_U]      = {   0.5,     0,   0.5},
+      [_hsp_Y]      = {     0,   0.5,     0},
+      [_hsp_S]      = {   0.5,   0.5,     0},
+      [_hsp_T]      = {     0,   0.5,   0.5},
+      [_hsp_R]      = {   0.5,   0.5,   0.5},
+    },
   },
-  {
+  { // oF1
     .latt_type        = _oF1,
+    .is_need_calculated = true,
     .n_highsym_points = 9,
     .n_paths          = 9,
     .highsym_points   = {
@@ -507,9 +579,21 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
       {_hsp_A_0,      _hsp_Z},
       {_hsp_GAMMA,    _hsp_L},
     },
+    .hsp_coordinates  = {
+      [_hsp_GAMMA]    = {     0,     0,     0},
+      [_hsp_T]        = {     1,   0.5,   0.5},
+      [_hsp_Z]        = {   0.5,   0.5,     0},
+      [_hsp_Y]        = {   0.5,     0,   0.5},
+      [_hsp_SIGMA_0]  = {    -1,    -1,    -1}, // Need to be calculated
+      [_hsp_U_0]      = {    -1,    -1,    -1}, // Need to be calculated
+      [_hsp_A_0]      = {    -1,    -1,    -1}, // Need to be calculated
+      [_hsp_C_0]      = {    -1,    -1,    -1}, // Need to be calculated
+      [_hsp_L]        = {   0.5,   0.5,   0.5},
+    },
   },
-  {
+  { // oF2
     .latt_type        = _oF2,
+    .is_need_calculated = true,
     .n_highsym_points = 9,
     .n_paths          = 9,
     .highsym_points   = {
@@ -533,6 +617,17 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
       {_hsp_T,        _hsp_G_0},
       {_hsp_H_0,      _hsp_Y},
       {_hsp_GAMMA,    _hsp_L},
+    },
+    .hsp_coordinates  = {
+      [_hsp_GAMMA] = {},
+      [_hsp_T] = {},
+      [_hsp_Z] = {},
+      [_hsp_Y] = {},
+      [_hsp_LAMBDA_0] = {},
+      [_hsp_Q_0] = {},
+      [_hsp_G_0] = {},
+      [_hsp_H_0] = {},
+      [_hsp_L] = {},
     },
   },
   {
