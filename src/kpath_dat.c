@@ -1469,3 +1469,8 @@ static const KPath kpath_dat[30] = { // Only takes up 65 kB
     },
   },
 };
+
+
+KPath kpt_get_kpath(const LatticeType latt_type) {
+  return (latt_type >= _null && latt_type <= _aP3) ? kpath_dat[latt_type] : kpath_dat[_null];
+}

@@ -253,7 +253,7 @@ int kpt_get_point_group(const Cellp* cell,
 
 int kpt_get_hall_number(const Cellp* cell,
                         const double prec) {
-  const int max_size = 50;
+  const int max_size = 100;
   int rotation[max_size][3][3];
   double translation[max_size][3];
   const int num_operations = spg_get_symmetry(rotation, 

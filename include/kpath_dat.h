@@ -117,3 +117,6 @@ typedef struct {
   HighSymmetryPoint path[12][2];        // Maximum path nodes is 12
   double            hsp_coordinates[85][3];
 } KPath;
+
+
+KPath kpt_get_kpath(const LatticeType latt_type);
