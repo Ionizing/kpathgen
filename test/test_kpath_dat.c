@@ -1,9 +1,10 @@
+#define __DEBUG_ON
+
 #include <kpath_dat.h>
 #include <spg_wrap.h>
 #include <poscar.h>
 #include <error.h>
 
-#define __DEBUG_ON
 #include <debug.h>
 
 #define PREC 1E-6

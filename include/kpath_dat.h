@@ -1,7 +1,10 @@
 #pragma once
 
+#define __DEBUG_ON
+
 #include "error.h"
 #include "spg_wrap.h"
+#include "debug.h"
 
 
 #include "spglib/spg_database.h"

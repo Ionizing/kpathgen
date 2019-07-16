@@ -34,6 +34,7 @@ void _calc_lattice_detail(_lattice_detail* _l) {
        (_l->lattice[2][2]) * (_l->lattice[2][2]) );
 
   mat_mat33_inverse(_l->lattice, _l->rlattice);
+
   _l->ra = sqrt(
        (_l->rlattice[0][0]) * (_l->rlattice[0][0]) +
        (_l->rlattice[0][1]) * (_l->rlattice[0][1]) +
@@ -53,28 +54,36 @@ void _calc_lattice_detail(_lattice_detail* _l) {
                     _l->lattice[1][1] * _l->lattice[2][1] +
                     _l->lattice[1][2] * _l->lattice[2][2]) ) / (_l->b * _l->c);
 
-  _l->beta  = acos((_l->lattice[1][0] * _l->lattice[2][0] + 
-                    _l->lattice[1][1] * _l->lattice[2][1] +
-                    _l->lattice[1][2] * _l->lattice[2][2]) ) / (_l->a * _l->c);
+  _l->beta  = acos((_l->lattice[0][0] * _l->lattice[2][0] + 
+                    _l->lattice[0][1] * _l->lattice[2][1] +
+                    _l->lattice[0][2] * _l->lattice[2][2]) ) / (_l->a * _l->c);
 
-  _l->gamma = acos((_l->lattice[1][0] * _l->lattice[2][0] + 
-                    _l->lattice[1][1] * _l->lattice[2][1] +
-                    _l->lattice[1][2] * _l->lattice[2][2]) ) / (_l->a * _l->b);
+  _l->gamma = acos((_l->lattice[0][0] * _l->lattice[1][0] + 
+                    _l->lattice[0][1] * _l->lattice[1][1] +
+                    _l->lattice[0][2] * _l->lattice[1][2]) ) / (_l->a * _l->b);
 
   _l->ralpha = acos((_l->rlattice[1][0] * _l->rlattice[2][0] + 
                      _l->rlattice[1][1] * _l->rlattice[2][1] +
                      _l->rlattice[1][2] * _l->rlattice[2][2]) ) / (_l->rb * _l->rc);
 
-  _l->rbeta  = acos((_l->rlattice[1][0] * _l->rlattice[2][0] + 
-                     _l->rlattice[1][1] * _l->rlattice[2][1] +
-                     _l->rlattice[1][2] * _l->rlattice[2][2]) ) / (_l->ra * _l->rc);
+  _l->rbeta  = acos((_l->rlattice[0][0] * _l->rlattice[2][0] + 
+                     _l->rlattice[0][1] * _l->rlattice[2][1] +
+                     _l->rlattice[0][2] * _l->rlattice[2][2]) ) / (_l->ra * _l->rc);
 
-  _l->rgamma = acos((_l->rlattice[1][0] * _l->rlattice[2][0] + 
-                     _l->rlattice[1][1] * _l->rlattice[2][1] +
-                     _l->rlattice[1][2] * _l->rlattice[2][2]) ) / (_l->ra * _l->rb);
+  _l->rgamma = acos((_l->rlattice[0][0] * _l->rlattice[1][0] + 
+                     _l->rlattice[0][1] * _l->rlattice[1][1] +
+                     _l->rlattice[0][2] * _l->rlattice[1][2]) ) / (_l->ra * _l->rb);
 
-  
-
+  debug_puts("----- info of detailed lattice -----\n");
+  debug_print_matd33(_l->lattice);
+  debug_print_matd33(_l->rlattice);
+  debug_printf("a = %10.5f b = %10.5f c = %10.5f ra = %10.5f rb = %10.5f rc = %10.5f\n",
+      _l->a, _l->b, _l->c, 
+      _l->ra, _l->rb, _l->rc);
+  debug_printf("alpha = %10.5f beta = %10.5f gamma = %10.5f ralpha = %10.5f rbeta = %10.5f rgamma = %10.5f\n",
+      _l->alpha * 57.3, _l->beta * 57.3, _l->gamma * 57.3, 
+      _l->ralpha * 57.3, _l->rbeta * 57.3, _l->rgamma * 57.3);
+  debug_puts("-----   detailed lattice ends  -----\n");
 }
 
 

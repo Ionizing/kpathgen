@@ -1,0 +1,311 @@
+[1m[31m*** ERROR *** Testing get_lattice_type failed: expected cF1, but got cI1
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected cF2, but got cI1
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected cI1, but got cF2
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected tI1, but got NUL
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected tI2, but got NUL
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/cP1/POSCAR_noinversion" successfully.
+[0m[32m--- OK --- Testing get_lattice_type successed: expected cP1, got cP1
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/cP2/POSCAR_noinversion" successfully.
+[0m[32m--- OK --- Testing get_lattice_type successed: expected cP2, got cP2
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/cF1/POSCAR_noinversion" successfully.
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/cF2/POSCAR_noinversion" successfully.
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/cI1/POSCAR_noinversion" successfully.
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/tP1/POSCAR_noinversion" successfully.
+[0m[32m--- OK --- Testing get_lattice_type successed: expected tP1, got tP1
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/tI1/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   5.47948     0.00000     0.00000
+	   0.00000     5.47948     0.00000
+	   0.00000     0.00000     5.18484
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.18250     0.00000     0.00000
+	   0.00000     0.18250     0.00000
+	   0.00000     0.00000     0.19287
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    5.47948 b =    5.47948 c =    5.18484 ra =    0.18250 rb =    0.18250 rc =    0.19287
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    3.16811 beta =    3.16811 gamma =    2.99775 ralpha = 2557.10939 rbeta = 2557.10939 rgamma = 2702.42571
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/tI2/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   3.56520     0.00000     0.00000
+	   0.00000     3.56520     0.00000
+	   0.00000     0.00000     5.74144
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.28049     0.00000     0.00000
+	   0.00000     0.28049     0.00000
+	   0.00000     0.00000     0.17417
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    3.56520 b =    3.56520 c =    5.74144 ra =    0.28049 rb =    0.28049 rc =    0.17417
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    4.39714 beta =    4.39714 gamma =    7.08122 ralpha = 1842.37781 rbeta = 1842.37781 rgamma = 1144.03999
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/oP1/POSCAR_noinversion" successfully.
+[0m[32m--- OK --- Testing get_lattice_type successed: expected oP1, got oP1
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/oF1/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   2.51534     0.00000     0.00000
+	   0.00000     6.04508     0.00000
+	   0.00000     0.00000     4.33983
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.39756     0.00000     0.00000
+	   0.00000     0.16542     0.00000
+	   0.00000     0.00000     0.23042
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    2.51534 b =    6.04508 c =    4.33983 ra =    0.39756 rb =    0.16542 rc =    0.23042
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    3.43083 beta = [1m[31m*** ERROR *** Testing get_lattice_type failed: expected oF1, but got oI2
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected oF2, but got oI2
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected oF3, but got oI2
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected oI1, but got oF1
+[0m   8.24527 gamma =    5.91937 ralpha = 2361.29042 rbeta =  982.52591 rgamma = 1368.58958
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/oF2/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	  10.42926     0.00000     0.00000
+	   0.00000    21.26942     0.00000
+	   0.00000     0.00000     5.58806
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.09588     0.00000     0.00000
+	   0.00000     0.04702     0.00000
+	   0.00000     0.00000     0.17895
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =   10.42926 b =   21.26942 c =    5.58806 ra =    0.09588 rb =    0.04702 rc =    0.17895
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    0.75728 beta =    1.54440 gamma =    0.40576 ralpha = 10697.71757 rbeta = 5245.52264 rgamma = 19965.65579
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/oF3/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   6.23630     0.00000     0.00000
+	   0.00000    24.00160     0.00000
+	   0.00000     0.00000     6.25088
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.16035     0.00000     0.00000
+	   0.00000     0.04166     0.00000
+	   0.00000     0.00000     0.15998
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    6.23630 b =   24.00160 c =    6.25088 ra =    0.16035 rb =    0.04166 rc =    0.15998
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    0.59992 beta =    2.30890 gamma =    0.60132 ralpha = 13503.80196 rbeta = 3508.67388 rgamma = 13472.30033
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/oI1/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   2.69179     0.00000     0.00000
+	   0.00000     3.31323     0.00000
+	   0.00000     0.00000    10.07012
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.37150     0.00000     0.00000
+	   0.00000     0.30182     0.00000
+	   0.00000     0.00000     0.09930
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    2.69179 b =    3.31323 c =   10.07012 ra =    0.37150 rb =    0.30182 rc =    0.09930
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    2.69767 beta =    3.32047 gamma =   10.09213 ralpha = 3003.03611 rbeta = 2439.77442 rgamma =  802.72381
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/oI2/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   9.85799     0.00000     0.00000
+	   0.00000     6.88793     0.00000
+	   0.00000     0.00000     7.00881
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.10144     0.00000     0.00000
+	   0.00000     0.14518     0.00000
+	   0.00000     0.00000     0.14268
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    9.85799 b =    6.88793 c =    7.00881 ra =    0.10144 rb =    0.14518 rc =    0.14268
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    1.86441 beta =    1.30269 gamma =    1.32555 ra[1m[31m*** ERROR *** Testing get_lattice_type failed: expected oI2, but got oF3
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected oI3, but got oF3
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected oC1, but got oA2
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected oC2, but got oA2
+[0mlpha = 4345.18118 rbeta = 6218.80976 rgamma = 6111.55165
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/oI3/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   3.31100     0.00000     0.00000
+	   0.00000     5.52600     0.00000
+	   0.00000     0.00000     3.52600
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.30202     0.00000     0.00000
+	   0.00000     0.18096     0.00000
+	   0.00000     0.00000     0.28361
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    3.31100 b =    5.52600 c =    3.52600 ra =    0.30202 rb =    0.18096 rc =    0.28361
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    4.61935 beta =    7.70962 gamma =    4.91931 ralpha = 1753.75003 rbeta = 1050.79018 rgamma = 1646.81410
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/oC1/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   4.41144     0.00000     0.00000
+	   0.00000    12.43988     0.00000
+	   0.00000     0.00000     4.54415
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.22668     0.00000     0.00000
+	   0.00000     0.08039     0.00000
+	   0.00000     0.00000     0.22006
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    4.41144 b =   12.43988 c =    4.54415 ra =    0.22668 rb =    0.08039 rc =    0.22006
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    1.59223 beta =    4.48996 gamma =    1.64013 ralpha = 5087.94963 rbeta = 1804.29128 rgamma = 4939.35757
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/oC2/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   9.00598     0.00000     0.00000
+	   0.00000     5.58698     0.00000
+	   0.00000     0.00000     4.98913
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.11104     0.00000     0.00000
+	   0.00000     0.17899     0.00000
+	   0.00000     0.00000     0.20044
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    9.00598 b =    5.58698 c =    4.98913 ra =    0.11104 rb =    0.17899 rc =    0.20044
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    3.22903 beta =    2.00317 gamma =    1.78882 ralpha = 2508.86160 rbeta = 4044.18036 rgamma = 4528.79044
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/oA1/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   3.53724     0.00000     0.00000
+	   0.00000     3.17907     0.00000
+	   0.00000     0.00000     9.90329
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.28271     0.00000     0.00000
+	   0.00000     0.31456     0.00000
+	   0.00000     0.00000     0.10098
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    3.53724 b =    3.17907 c =    9.90329 ra =    0.28271 rb =    0.31456 rc =    0.10098
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    2.85888 beta =    2.56939 gamma =    8.00406 ralpha = 2833.69754 rbeta = 3152.96085[1m[31m*** ERROR *** Testing get_lattice_type failed: expected oA1, but got NUL
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected oA2, but got NUL
+[0m rgamma = 1012.13575
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/oA2/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   3.09692     0.00000     0.00000
+	   0.00000     8.39899     0.00000
+	   0.00000     0.00000     4.90273
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.32290     0.00000     0.00000
+	   0.00000     0.11906     0.00000
+	   0.00000     0.00000     0.20397
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    3.09692 b =    8.39899 c =    4.90273 ra =    0.32290 rb =    0.11906 rc =    0.20397
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    2.18579 beta =    5.92798 gamma =    3.46033 ralpha = 3706.29481 rbeta = 1366.60296 rgamma = 2341.16004
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/hP1/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   7.38383     0.00000     0.00000
+	  -3.69191     6.39458     0.00000
+	   0.00000     0.00000     5.26797
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.13543     0.00000     0.00000
+	   0.07819     0.15638    -0.00000
+	  -0.00000     0.00000     0.18983
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    7.38383 b =    7.38383 c =    5.26797 ra =    0.13543 rb =    0.17484 rc =    0.18983
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    2.31393 beta =    2.31393 gamma =        nan ralpha = 2711.90653 rbeta = 3501.05628 rgamma = 3775.50861
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Testing get_lattice_type successed: expected hP1, got hP1
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/hP2/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   3.24464     0.00000     0.00000
+	  -1.62232     2.80994     0.00000
+	   0.00000     0.00000     3.20052
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.30820     0.00000     0.00000
+	   0.17794     0.35588    -0.00000
+	  -0.00000     0.00000     0.31245
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    3.24464 b =    3.24464 c =    3.20052 ra =    0.30820 rb =    0.39789 rc =    0.31245
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    8.66738 beta =    8.66738 gamma =        nan ralpha =  723.99744 rbeta =  934.67667 rgamma =  708.34088
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Testing get_lattice_type successed: expected hP2, got hP2
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/hR1/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   4.30896     0.00000     0.00000
+	  -2.15448     3.73167     0.00000
+	   0.00000     0.00000    10.24865
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.23207     0.00000     0.00000
+	   0.13399     0.26798    -0.00000
+	  -0.00000     0.00000     0.09757
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    4.30896 b =    4.30896 c =   10.24865 ra =    0.23207 rb =    0.29961 rc =    0.09757
+[0m[36m  ../src/kpath_dat.c[1m[31m*** ERROR *** Testing get_lattice_type failed: expected hR1, but got NUL
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected hR2, but got NUL
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected mC1, but got NUL
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected mC2, but got NUL
+[0m:85:_calc_lattice_detail  alpha =    2.03815 beta =    2.03815 gamma =        nan ralpha = 3078.85263 rbeta = 3974.78166 rgamma = 1268.84716
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/hR2/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   6.16182     0.00000     0.00000
+	  -3.08091     5.33629     0.00000
+	   0.00000     0.00000     4.81246
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.16229     0.00000     0.00000
+	   0.09370     0.18740    -0.00000
+	  -0.00000     0.00000     0.20779
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    6.16182 b =    6.16182 c =    4.81246 ra =    0.16229 rb =    0.20952 rc =    0.20779
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    3.03528 beta =    3.03528 gamma =        nan ralpha = 2067.40594 rbeta = 2669.00959 rgamma = 2621.45690
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/mP1/POSCAR_noinversion" successfully.
+[0m[32m--- OK --- Testing get_lattice_type successed: expected mP1, got mP1
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/mC1/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   4.68900     0.00000     0.00000
+	   0.00000     3.42000     0.00000
+	  -0.85288     0.00000     5.05861
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.21327     0.00000     0.00000
+	  -0.00000     0.29240     0.00000
+	   0.03596    -0.00000     0.19768
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    4.68900 b =    3.42000 c =    5.13000 ra =    0.21327 rb =    0.29240 rc =    0.20093
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    5.13016 beta =        nan gamma =    5.61265 ralpha = 1532.01799 rbeta = 2090.22323 rgamma = 1443.38059
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/mC2/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   4.45437     0.00000     0.00000
+	   0.00000     5.94416     0.00000
+	  -2.06495     0.00000     4.52883
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.22450     0.00000     0.00000
+	  -0.00000     0.16823     0.00000
+	   0.10236    -0.00000     0.22081
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    4.45437 b =    5.94416 c =    4.97738 ra =    0.22450 rb =    0.16823 rc =    0.24338
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    3.04217 beta =        nan gamma =    3.39937 ralpha = 2198.26343 rbeta = 1623.20925 rgamma = 2383.14684
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/mC3/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   6.05030     0.00000     0.00000
+	   0.00000     5.80582     0.00000
+	  -1.34128     0.00000     3.98373
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	   0.16528     0.00000     0.00000
+	  -0.00000     0.17224     0.00000
+	   0.05565    -0.00000     0.25102
+[0[1m[31m*** ERROR *** Testing get_lattice_type failed: expected mC3, but got NUL
+[0m[1m[31m*** ERROR *** Testing get_lattice_type failed: expected aP2, but got aP3
+[0mm[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    6.05030 b =    5.80582 c =    4.20347 ra =    0.16528 rb =    0.17224 rc =    0.25712
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =    3.68811 beta =        nan gamma =    2.56232 ralpha = 2032.40097 rbeta = 2105.58478 rgamma = 3161.65802
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/aP2/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	   0.22320     3.95093     0.10872
+	   0.33710     0.08854     4.19059
+	   4.51533     0.17896     0.31614
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	  -0.00974    -0.01658     0.22319
+	   0.25378    -0.00567    -0.01212
+	  -0.00458     0.24008    -0.01770
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    3.95872 b =    4.20506 c =    4.52992 ra =    0.22401 rb =    0.25413 rc =    0.24078
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =        nan beta =        nan gamma =    1.69887 ralpha = 1473.09856 rbeta = 1677.08617 rgamma = 1586.13101
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Opened POSCAR file "../third_party/seekpath/seekpath/hpkot/band_path_data/aP3/POSCAR_noinversion" successfully.
+[0m[36m  ../src/kpath_dat.c:77:_calc_lattice_detail  ----- info of detailed lattice -----
+[0m[36m  ../src/kpath_dat.c:78:_calc_lattice_detail  content of _l->lattice is:
+	  -1.92335    -3.49589     1.33646
+	   1.96250    -2.53831     2.80082
+	  -2.96638     3.71628     6.37330
+[0m[36m  ../src/kpath_dat.c:79:_calc_lattice_detail  content of _l->rlattice is:
+	  -0.21512     0.22047    -0.05178
+	  -0.16843    -0.06711     0.06481
+	  -0.00191     0.14174     0.09501
+[0m[36m  ../src/kpath_dat.c:82:_calc_lattice_detail  a =    4.20793 b =    4.25899 c =    7.95167 ra =    0.31235 rb =    0.19254 rc =    0.17065
+[0m[36m  ../src/kpath_dat.c:85:_calc_lattice_detail  alpha =        nan beta =        nan gamma =        nan ralpha = 2744.56062 rbeta = 1659.82324 rgamma = 1479.39367
+[0m[36m  ../src/kpath_dat.c:86:_calc_lattice_detail  -----   detailed lattice ends  -----
+[0m[32m--- OK --- Testing get_lattice_type successed: expected aP3, got aP3
+[0m
